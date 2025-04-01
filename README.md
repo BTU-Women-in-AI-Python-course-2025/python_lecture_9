@@ -1,13 +1,13 @@
 # Django
 
 - **Creating Models** - https://docs.djangoproject.com/en/5.0/topics/db/models/:
-  - Learn how to define models in Django to represent database tables.
-
+   - Learn how to define models in Django to represent database tables.
+- **Model Fields** - https://www.freecodecamp.org/news/common-django-model-fields-and-their-use-cases/
+- **Model Meta options** - https://docs.djangoproject.com/en/5.1/ref/models/options/
 - **Using Migrations to Create Tables in the Database** - https://docs.djangoproject.com/en/5.0/topics/migrations/:
-  - Understand how to use Django migrations to create and manage database tables.
-
+   - Understand how to use Django migrations to create and manage database tables.
 - **Querying the Database with Django ORM** - https://docs.djangoproject.com/en/5.0/topics/db/queries/:
-  - Explore how to use Django's Object-Relational Mapping (ORM) to interact with the database.
+   - Explore how to use Django's Object-Relational Mapping (ORM) to interact with the database.
     
 # 📚 Django Blog Application
 
