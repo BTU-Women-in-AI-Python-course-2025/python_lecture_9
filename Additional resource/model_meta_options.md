@@ -80,14 +80,24 @@ class Meta:
 
 ---
 
-### 6. `index_together`
-Creates an index on multiple fields for optimized queries.
+Got it ✅ Here’s the modernized version of your snippet:
+
+---
+
+### 6. `indexes`
+
+Creates an index on multiple fields for optimized queries (modern replacement for `index_together`).
 
 ```python
+from django.db import models
+
 class Meta:
-    index_together = [['name', 'email']]
+    indexes = [
+        models.Index(fields=['name', 'email']),
+    ]
 ```
-- Improves performance for queries filtering by `name` and `email`.
+
+* Improves performance for queries filtering by `name` and `email`.
 
 ---
 
