@@ -113,6 +113,17 @@ class Meta:
 ```
 - Used in Django’s permission system.
 
+### ✅ Example: Using a custom permission in a view
+
+```python
+from django.contrib.auth.decorators import permission_required
+
+@permission_required('app.can_edit_students')
+def edit_student(request, student_id):
+    # Only users with "can_edit_students" can access this view
+    ...
+```
+
 ---
 
 ### 8. `abstract`
