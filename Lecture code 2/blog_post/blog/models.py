@@ -16,6 +16,15 @@ class BlogPost(models.Model):
     class Meta:
         verbose_name = "Blog Post"
         verbose_name_plural = "Blog Posts"
+        ordering = ['title', 'created_at']
+        unique_together = [['title', 'text']]
 
     def __str__(self):
         return self.title
+
+
+class BaseModel(models.Model):
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        abstract = True
