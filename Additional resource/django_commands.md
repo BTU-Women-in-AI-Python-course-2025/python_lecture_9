@@ -3,7 +3,7 @@
 - **`python manage.py runserver`**  
   Starts the development server.
 
-- **`python manage.py startproject <project_name>`**  
+- **`django-admin startproject <projectname>`**  
   Creates a new Django project with the specified name.
 
 - **`python manage.py startapp <app_name>`**  
